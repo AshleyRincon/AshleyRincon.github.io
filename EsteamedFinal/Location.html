@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Esteamed/Location</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+
+    <style>
+
+      .header{
+        background-color: #AF153E;
+        height: 60px;
+        color: #FFFFFF;
+        font-size: 25px;
+      }
+
+      .nav-link{
+        color: #FFFFFF;
+      }
+
+      .footer{
+        background-color: #510811;
+        height: 60px;
+      }
+     
+      .clear{
+        clear: left;
+      }
+
+      .display-3{
+        color: #AF153E;        
+      }
+
+      .Map{
+        height: 500px;
+        background-image: url("images/Map.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .Cafe{
+        height: 500px;
+        background-image: url("images/Cafe.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+      }
+
+      .wBg{
+        background-color: #FFFFFF;
+      }
+
+      .lpBg{
+        background-color: #FA5A84;
+        padding: 20px;
+        border-radius: 20px;
+      }
+
+      input{
+        width: 200px;
+        text-align: center;
+      }
+
+      a{
+        color: #FFFFFF !important;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Merriweather', serif;        
+      }
+
+      a:hover{
+        text-decoration: underline;
+      }
+
+      h1{
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Merriweather', serif;
+        color: #AF153E;
+        text-align: center;        
+      }
+
+    </style>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+  
+  <body>
+    
+      <div class="container-sm">
+        <div class="row">
+          <div class="col text-center">
+            <a href= "EsteamedHomePg.html">
+              <img src="images/EsteamedLogo.png"
+              height="175px">
+            </a>
+          </div>
+        </div>
+      </div>
+        <!--end of logo-->
+
+  <div class="container-fluid header">
+    <div class="row">
+      <div class="col">
+         <div class="col text-center">
+          
+         <ul class="nav justify-content-center">
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Menu.html">Menu</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="Shop.html">Gift Shop</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="Location.html">Location</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html">About Us</a>
+         </li>
+        </ul>
+         </div>
+      </div>
+    </div>
+  </div>
+         <!--end of navbar-->
+
+<p class="clear"></p>
+
+      <h1 class="display-3">Find an Esteamed near you!</h1>
+
+      <div class="container lpBg">
+        <div class="row">
+          <div class="col">
+
+            <div class="input-group input-group-lg">
+              <span class="input-group-text" id="inputGroup-sizing-lg">Zip Code</span>
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+            </div>
+
+          </div>
+        </div>
+      </div>
+        <!--end of input-->
+
+<p class="clear"></p>
+
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col Map">
+          </div>
+
+          <div class="col Cafe">
+          </div>
+
+        </div>
+      </div>
+
+<p class="clear"></p>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
